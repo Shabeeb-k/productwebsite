@@ -1,0 +1,31 @@
+.footer {
+    background-color:black;
+    padding: 20px;
+    text-align: center;
+}
+.social-media-icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .social-media-icons a {
+    display: inline-block;
+    margin: 0 10px;
+    color: #fff;
+    font-size: 20px;
+    transition: color 0.3s ease;
+  }
+  
+  .social-media-icons a.facebook:hover {
+    color: #3b5998;
+  }
+  .social-media-icons a.instagram:hover {
+    color:#d62976;
+  }
+  .social-media-icons a.twitter:hover {
+    color: #1DA1F2;
+  }
+  .social-media-icons a.youtube:hover {
+    color: #FF0000;
+  }
