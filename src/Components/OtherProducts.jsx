@@ -20,8 +20,9 @@ function OtherProducts() {
     }
     return (
         <section className="otherproducts">
-            
-                <h1 className='offer' >50% DISCOUNT</h1>
+            <div className="heading">
+                <h1 className='offer' >50% OFFERS</h1>
+                </div>
                 <Carousel className='carosel p-3 mb-2 bg-light'>
                     {
                         slicedotherProduct.map((other) => {
